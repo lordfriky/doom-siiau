@@ -1,6 +1,6 @@
 {
     "name": "doom-siiau",
-    "version": "1.0.0",
+    "version": "1.0.1",
 		"icons": {
 				"16": "res/icon_16.png",
 				"32": "res/icon_32.png",
@@ -11,14 +11,14 @@
     "manifest_version": 3,
     "content_scripts": [{
         "js": ["app.js"],
-        "matches": ["http://siiauescolar.siiau.udg.mx/*"],
+        "matches": ["http://siiauescolar.siiau.udg.mx/*", "https://siiauescolar.siiau.udg.mx/*"],
 				"include_globs": ["*/wal/gupmenug.menu?p_sistema_c=ALUMNOS&p_sistemaid_n=3&p_menupredid_n=3&p_pidm_n=*"],
         "all_frames": true
     }],
     "web_accessible_resources": [
         {
         "resources": ["doom.html"],
-        "matches": ["http://siiauescolar.siiau.udg.mx/*"]
+        "matches": ["http://siiauescolar.siiau.udg.mx/*", "https://siiauescolar.siiau.udg.mx/*"]
         }
     ]
 }

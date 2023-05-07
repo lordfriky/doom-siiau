@@ -53,7 +53,7 @@ Una vez dentro activa el `Modo Desarrollador` y haz clic en `Cargar Descomprimid
 
 <!-- Badges estáticos -->
 [language-shield]: https://img.shields.io/badge/LENGUAJE-HTML%2C%20JS-orange?style=for-the-badge
-[version-shield]: https://img.shields.io/badge/VERSION-1.0.0-brightgreen?style=for-the-badge
+[version-shield]: https://img.shields.io/badge/VERSION-1.0.1-brightgreen?style=for-the-badge
 
 <!-- Badges dinmámicos -->
 [issues-shield]: https://img.shields.io/github/issues/lordfriky/doom-siiau.svg?style=for-the-badge
