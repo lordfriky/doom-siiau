@@ -7,10 +7,12 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 
-<br><img src="./aux/icon.png" height=150><br>
+<br><img src="./aux/icon.png" height=150 alt="Ícono de doom-siiau"><br>
 
 # doom-siiau
 Mata demonios mientras lloras por tus calificaciones :feelsgood:
+
+<br><img src="./aux/demo.gif" height=350 alt="GIF mostrando doom-siiau en funcionamiento"><br>
 
 </div>
 
@@ -39,13 +41,37 @@ Abre la página de extensiones de tu navegador poniendo `chrome://extensions` en
 
 Una vez dentro activa el `Modo Desarrollador` y haz clic en `Cargar Descomprimida`. En el explorador busca la carpeta `doom-siiau` dentro de este repositorio (**NO** la raíz de este). Finalmente debería aparecer un elemento como este.
 
-<p align="center"><img src="./aux/extension.png" height=200></p>
+<p align="center"><img src="./aux/extension.png" height=200 alt="Extensión doom-siiau instalada en Chrome"></p>
+
+## Uso
+
+Para ejecutar DOOM sólo hace falta iniciar sesión en [SIIAU][url-siiau] y encontrarás la opción en el apartado **ALUMNOS** > **DOOM** (justo debajo de **Orden De Pago Cive**).
+
+### Controles
+
+<ul>
+<li><strong>W A S D:</strong> Movimiento.</li>
+<li><strong>Mouse:</strong> Vista.</li>
+<li><strong>Clic izquierdo:</strong> Disparo</li>
+<li><strong>1 2 3 4 5 6 7 8 9:</strong> Cambio de arma.</li>
+</ul>
 
 ## Contribuir
 
 ¿Por qué alguien más debería perder el tiempo con esta cosa? Dedícate a estudiar papi.
 
-<br><p align="center" id="copyright-notice"><i>DOOM es propiedad de id Software LLC.</i></p>
+## Changelog
+
+- ### 1.0.1
+**Fix:** Extensión no funcionando en SIIAU sobre HTTPS.
+
+- ### 1.0.0
+Primer release.
+
+<br><p align="center" id="copyright-notice"><i>
+Port de DOOM a JavaScript por <a href="https://dos.zone">DOS Zone</a>.<br>
+DOOM es propiedad de id Software LLC.
+</i></p>
 
 <!--------------------->
 <!--     Enlaces     -->
@@ -65,3 +91,4 @@ Una vez dentro activa el `Modo Desarrollador` y haz clic en `Cargar Descomprimid
 
 <!-- Enlaces varios -->
 [zip-repositorio]: https://github.com/lordfriky/doom-siiau/archive/refs/heads/main.zip
+[url-siiau]: http://siiauescolar.siiau.udg.mx/wus/gupprincipal.inicio
