@@ -12,7 +12,7 @@
 # doom-siiau
 Mata demonios mientras lloras por tus calificaciones :feelsgood:
 
-<br><img src="./aux/demo.gif" height=350 alt="GIF mostrando doom-siiau en funcionamiento"><br>
+<br><img src="./aux/demo.gif" width=650 alt="GIF mostrando doom-siiau en funcionamiento"><br>
 
 </div>
 
